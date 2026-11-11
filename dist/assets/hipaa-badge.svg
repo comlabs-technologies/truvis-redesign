@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="t">
+  <title id="t">HIPAA Compliant</title>
+  <defs>
+    <path id="top" d="M22,100 A78,78 0 0 1 178,100"/>
+    <path id="bottom" d="M11,100 A89,89 0 0 0 189,100"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E73C8"/>
+      <stop offset="1" stop-color="#0C3A9E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="url(#g)"/>
+  <circle cx="100" cy="100" r="68" fill="#fff"/>
+  <circle cx="100" cy="100" r="63" fill="none" stroke="#0C25A3" stroke-width="1.5" stroke-opacity=".25"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" fill="#fff" text-anchor="middle">
+    <text font-size="15" letter-spacing="2.5"><textPath href="#top" startOffset="50%">HIPAA COMPLIANT</textPath></text>
+    <text font-size="10.5" letter-spacing="1.8"><textPath href="#bottom" startOffset="50%">HEALTH DATA PROTECTION</textPath></text>
+  </g>
+  <circle cx="24" cy="100" r="2.5" fill="#fff"/>
+  <circle cx="176" cy="100" r="2.5" fill="#fff"/>
+  <!-- shield with medical cross -->
+  <path d="M100,58 L130,69 V95 C130,115 117,130 100,138 C83,130 70,115 70,95 V69 Z" fill="#0C25A3"/>
+  <path d="M100,64 L125,73 V95 C125,111 114,124 100,131 C86,124 75,111 75,95 V73 Z" fill="none" stroke="#fff" stroke-width="1.5" stroke-opacity=".35"/>
+  <path d="M94,80 H106 V91 H117 V103 H106 V114 H94 V103 H83 V91 H94 Z" fill="#fff"/>
+</svg>

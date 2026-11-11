@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="t">
+  <title id="t">GDPR Compliant</title>
+  <defs>
+    <path id="top" d="M22,100 A78,78 0 0 1 178,100"/>
+    <path id="bottom" d="M11,100 A89,89 0 0 0 189,100"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E73C8"/>
+      <stop offset="1" stop-color="#0C3A9E"/>
+    </linearGradient>
+    <path id="star" d="M0,-5 L1.2,-1.6 L4.8,-1.5 L1.9,0.6 L2.9,4 L0,2 L-2.9,4 L-1.9,0.6 L-4.8,-1.5 L-1.2,-1.6 Z" fill="#0C25A3"/>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="url(#g)"/>
+  <circle cx="100" cy="100" r="68" fill="#fff"/>
+  <circle cx="100" cy="100" r="63" fill="none" stroke="#0C25A3" stroke-width="1.5" stroke-opacity=".25"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" fill="#fff" text-anchor="middle">
+    <text font-size="15" letter-spacing="2.5"><textPath href="#top" startOffset="50%">GDPR COMPLIANT</textPath></text>
+    <text font-size="10.5" letter-spacing="1.8"><textPath href="#bottom" startOffset="50%">PERSONAL DATA PROTECTION</textPath></text>
+  </g>
+  <circle cx="24" cy="100" r="2.5" fill="#fff"/>
+  <circle cx="176" cy="100" r="2.5" fill="#fff"/>
+  <!-- ring of 12 stars -->
+  <g transform="translate(100 100)">
+    <use href="#star" x="0" y="-50"/><use href="#star" x="25" y="-43.3"/><use href="#star" x="43.3" y="-25"/>
+    <use href="#star" x="50" y="0"/><use href="#star" x="43.3" y="25"/><use href="#star" x="25" y="43.3"/>
+    <use href="#star" x="0" y="50"/><use href="#star" x="-25" y="43.3"/><use href="#star" x="-43.3" y="25"/>
+    <use href="#star" x="-50" y="0"/><use href="#star" x="-43.3" y="-25"/><use href="#star" x="-25" y="-43.3"/>
+  </g>
+  <!-- padlock -->
+  <path d="M88,96 V86 A12,12 0 0 1 112,86 V96" fill="none" stroke="#0C25A3" stroke-width="6" stroke-linecap="round"/>
+  <rect x="80" y="94" width="40" height="32" rx="6" fill="#0C25A3"/>
+  <circle cx="100" cy="107" r="4.5" fill="#fff"/>
+  <rect x="98" y="108" width="4" height="10" rx="2" fill="#fff"/>
+</svg>

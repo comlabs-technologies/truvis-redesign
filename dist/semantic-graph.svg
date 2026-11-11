@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 290" fill="none">
+  <defs>
+    <linearGradient id="plane" x1="170" y1="110" x2="384" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6f4ff"/><stop offset="1" stop-color="#dbd3f6"/>
+    </linearGradient>
+    <linearGradient id="core" x1="242" y1="74" x2="313" y2="141" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6685de"/><stop offset="1" stop-color="#6543a7"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 213 278 80 520 212 281 282 40 213Z" fill="#eee9f8" opacity=".47"/>
+  <g stroke="#a8a0d0" stroke-width=".85" stroke-linejoin="round">
+    <path d="m95 183 185-98 185 98-185 98Z" fill="url(#plane)"/>
+    <path d="M95 183v9l185 98v-9Z" fill="#d9d2ef"/>
+    <path d="M280 281v9l185-98v-9Z" fill="#c5b9e5"/>
+    <path d="m126 199 185-98m-154 115 185-98m-154 114 185-98m-154 114 185-98m-154 115 185-98M249 101l185 98M218 118l185 98M187 134l185 98M156 150l185 98M125 167l185 98" opacity=".43"/>
+  </g>
+  <g stroke="#aaa1d4" stroke-width="1" stroke-linejoin="round">
+    <path d="m157 141 123-65 123 65-123 66Z" fill="#f5f1ff"/>
+    <path d="M157 141v15l123 65v-14Z" fill="#dcd2f4"/>
+    <path d="M280 207v14l123-65v-15Z" fill="#bfb0e6"/>
+  </g>
+  <path d="m182 141 98-52 98 52-98 52Z" stroke="#c9bee8" stroke-dasharray="3 4"/>
+  <g stroke="#7364a8" stroke-width="1.2">
+    <path d="m207 142 35 18 38-19 38 19 35-18m-73 0v-28" stroke-dasharray="3 4"/>
+    <circle cx="207" cy="142" r="5" fill="#fff"/><circle cx="242" cy="160" r="5" fill="#fff"/>
+    <circle cx="318" cy="160" r="5" fill="#fff"/><circle cx="353" cy="142" r="5" fill="#d8f1e3" stroke="#56846b"/>
+  </g>
+  <g stroke="#594993" stroke-width="1" stroke-linejoin="round">
+    <path d="m224 95 56-30 56 30-56 30Z" fill="url(#core)"/>
+    <path d="M224 95v22l56 30v-22Z" fill="#555fbc"/>
+    <path d="M280 125v22l56-30V95Z" fill="#594098"/>
+  </g>
+  <path d="m259 96 21-11 21 11-21 11Zm21-11v22m-21-11h42" stroke="#ece8ff" stroke-width="1.1" opacity=".8"/>
+  <circle cx="280" cy="96" r="2.8" fill="#f8f5ff"/>
+  <g stroke="#9a8ec2" stroke-dasharray="3 4">
+    <path d="M164 183v-65l-55-29H56"/><path d="M402 185v-59l54-29h53"/>
+    <path d="M280 65V35"/>
+  </g>
+  <g fill="#6b5b9c" font-family="monospace" font-size="9" letter-spacing="1">
+    <text x="56" y="81">SIGNALS</text><text x="509" y="89" text-anchor="end">EVIDENCE</text>
+    <text x="280" y="23" text-anchor="middle">SEMANTIC GRAPH</text>
+  </g>
+  <circle cx="164" cy="183" r="3" fill="#7364a8"/><circle cx="402" cy="185" r="3" fill="#56846b"/>
+</svg>
